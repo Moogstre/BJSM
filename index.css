@@ -1,0 +1,109 @@
+
+body {
+	text-align: center;
+	height: 100%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/14/View_of_the_new_One_World_Trade_Center_from_Fulton_Street.,_NYC.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #f06;
+	font-family: helvetica;
+	text-shadow:2px 2px #000000;
+}
+
+.player-controls {
+    width: 100%;
+    border-top: 1px solid;
+    position: fixed;
+    bottom: 0;
+    color: #afa;
+
+}
+
+.player-controls__button {
+    box-sizing: border-box;
+    width: 4em;
+    border: none;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: inherit;
+    -webkit-font-smoothing: antialiased;
+    line-height: 2.25em;
+    color: currentcolor;
+    background-color: transparent;
+}
+
+.player-controls__button:hover,
+.player-controls__button:focus,
+.player-controls__button.is-active {
+    color: #222;
+    background-color: #afa;
+}
+
+.player-controls__button:focus {
+    outline: none;
+}
+
+.player-controls__button.is-active:hover,
+.player-controls__button.is-active:focus {
+       color: currentcolor;
+    background-color: #222;
+}
+		p{
+
+			font-size: 20px;
+		}
+		input{
+			border-size:0px;
+			padding: 10px;
+			font-size: 18px;
+		}
+		input[type="submit"]{
+			background: #f06;
+			color: white;
+			border: 0px;
+		}
+		ul{
+			list-style: none;
+			font-size: 24px;
+		}
+li{
+	font-size: 22px;
+}
+img{
+	height:300px;
+	width:300px;
+	margin-left: auto;
+margin-right: auto;
+margin: 10px;
+border: 10px solid #AAFFAA;
+border-radius:  500px;
+-webzkit-border-radius: 500px;
+-moz-border-radius:500px;
+}
+nav ul li{
+	display: inline-block;
+	padding-right: 180px;
+}
+nav{
+	height: 65px;
+}
+button{
+	font-size: 12px;
+	background-color: white;
+	border: 1px solid #AAFFAA;
+}
+
+a:link{
+	color: #f06;
+	text-decoration: none;
+}
+a:visited{
+	 color: #f06;
+	 text-decoration: none;
+}
+@media screen and(max-width: 400px){
+	nav ul li{
+	display: inline-block;
+	padding-right: 15px;
+}
+}
